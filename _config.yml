@@ -242,6 +242,11 @@ defaults:
       related: true
   # _pages
   - scope:
+      path: "_pages"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
       path: ""
       type: pages
     values:
