@@ -26,10 +26,10 @@ author:
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Charlottesville, Virginia, USA"
-  employer         : "University of Virginia"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "dag9wj@virginia.edu" 
+  email            : "none@example.org" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -130,7 +130,7 @@ yandex_site_verification :
 
 
 # Social Sharing
-twitter: 
+twitter:
   username               : &twitter
 facebook:
   username               :
