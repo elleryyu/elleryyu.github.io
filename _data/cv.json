@@ -1,152 +1,105 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Weifeng (Ellery) Yu",
+    "email": "dag9wj@virginia.edu",
+    "phone": "(+1) 434-257-4080",
+    "website": "https://elleryyu.github.io",
+    "summary": "Master in Computer Science @ UVA. Research: computational neuroimaging, GNNs, brain–behavior modeling. Neurobioinformatics Lab.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Charlottesville",
+      "region": "VA",
+      "countryCode": "US"
     },
     "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
-      }
+      { "network": "GitHub", "username": "elleryyu", "url": "https://github.com/elleryyu" }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Neurobioinformatics Lab, University of Virginia",
+      "position": "Research Assistant",
+      "startDate": "2024-04",
+      "endDate": "Present",
+      "summary": "Mentored by Prof. Aiying Zhang. GNN-based fMRI/behavioral framework (MIDL 2025), INT pipeline (SPIE 2025), trial-wise beta estimation & BSC for task fMRI, CUI data management, lab website & journal club.",
+      "highlights": [
+        "Developed and evaluated GNN-based framework integrating fMRI with behavioral measures; accepted at MIDL 2025",
+        "Built intrinsic neural timescale (INT) analysis pipeline on ACE and ABIDE; accepted at SPIE Medical Imaging 2025",
+        "Implemented LSS/LSA and beta-series correlation pipelines for task fMRI (SST, MID)",
+        "Managed CUI datasets with NIST SP 800-171–aligned handling; maintain lab website and biweekly journal club"
+      ]
+    },
+    {
+      "company": "Song Lab, University of Florida",
+      "position": "Research Volunteer",
+      "startDate": "2024-01",
+      "endDate": "2024-05",
+      "summary": "Mentored by Prof. Qianqian Song. GWAS meta-analysis on irAEs, drug treatment dataset curation, genetic data analysis.",
+      "highlights": [
+        "Contributed to GWAS meta-analysis on immune-related adverse events (irAEs)",
+        "Curated drug treatment datasets across cancer types; collaborated on genetic data analysis"
+      ]
+    },
+    {
+      "company": "Institute of Societal Contemporary Computing, Wenzhou-Kean University",
+      "position": "Research Assistant",
+      "startDate": "2021-09",
+      "endDate": "2023-06",
+      "summary": "Mentored by Prof. Sujatha Krishnamoorthy. AI/ML for Parkinson's assessment, diabetic retinopathy detection.",
+      "highlights": [
+        "Led student team developing AI/ML methods for Parkinson's (written tasks, voice, gait)",
+        "Survey on Parkinson's diagnostics; optimized code for diabetic retinopathy detection project"
+      ]
+    },
+    {
+      "company": "Zhuanzhuan Spirit Tech Co. Ltd.",
+      "position": "Software Development Engineer",
+      "startDate": "2021-12",
+      "endDate": "2022-02",
+      "summary": "Supervised by Mr. Yuan Wang. Spring Framework information management system, Phone Detection system.",
+      "highlights": [
+        "Developed information management system using Spring Framework",
+        "Contributed to Phone Detection \"One Line\" system; weekly reports and product alignment"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "institution": "University of Virginia",
+      "area": "Master in Computer Science",
+      "endDate": "2025",
+      "studyType": "Master",
+      "location": "Charlottesville, VA",
+      "gpa": "3.77/4.00"
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Kean University, Wenzhou",
+      "area": "B.S. in Computer Science (Cum Laude)",
+      "endDate": "2023",
+      "studyType": "Bachelor",
+      "location": "Wenzhou, China | Union, NJ",
+      "gpa": "3.55/4.00"
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "skills": [
+    { "name": "Languages", "keywords": ["Python", "Java", "HTML5", "LaTeX", "R", "SQL"] },
+    { "name": "Tools", "keywords": ["PyTorch", "DGL", "Docker", "FSL", "fMRIprep", "Nilearn", "FreeSurfer", "Connectome Workbench", "METAL"] }
+  ],
   "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
+    { "name": "Altered Hierarchical Ranking of Intrinsic Neural Timescales in School-Aged Youth with Autism Spectrum Disorder", "publisher": "Molecular Autism (submitted)", "releaseDate": "2026", "summary": "Solomon, A.*, Yu, W.*, Rasero, J., & Zhang, A. (*equal contribution)" },
+    { "name": "A novel GNN framework integrating neuroimaging and behavioral information to understand adolescent psychiatric disorders", "publisher": "MIDL 2025", "releaseDate": "2025", "summary": "Yu, W., Qu, G., Kim, Y. G., Xu, L., & Zhang, A." },
+    { "name": "Altered hierarchical rank in intrinsic neural timescales in autism spectrum disorder", "publisher": "SPIE Medical Imaging 2025", "releaseDate": "2025", "summary": "Solomon, A., Yu, W., Rasero, J., & Zhang, A." },
+    { "name": "PCCA variant rs16957301 is a novel AKI risk genotype-specific for ICI treatment (All of Us)", "publisher": "European Journal of Cancer", "releaseDate": "2024", "summary": "Wang, Y., Xiong, C., Yu, W., et al." },
+    { "name": "AO-HRCNN for Diabetic Retinopathy Detection and Classification", "publisher": "Artificial Intelligence Review", "releaseDate": "2023", "summary": "Krishnamoorthy, S., Yu, W., Jin, L., & Kadry, S." },
+    { "name": "Framework to segment and evaluate multiple sclerosis lesion using VGG-UNet", "publisher": "Computational Intelligence and Neuroscience", "releaseDate": "2022", "summary": "Krishnamoorthy, S., Zhang, Y., Kadry, S., & Yu, W." }
   ],
   "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
+    { "name": "Integrating Multimodal Imaging and Non-Imaging Data via Graph Learning", "event": "VALIANT Deeper Dive Seminar Series, Vanderbilt University", "date": "2026-03-17", "location": "Vanderbilt University" },
+    { "name": "BEG-GAE: A Novel GNN Framework Integrating Neuroimaging and Behavioral Information", "event": "MIDL 2025", "date": "2025-07-10", "location": "Salt Lake City, UT" },
+    { "name": "Introduction to GCN and GraphSAGE", "event": "NeuroBioinformatics Lab Seminar, UVA", "date": "2024-06-28", "location": "University of Virginia" },
+    { "name": "Subtype-Specific Alterations in Structure–Function Coupling in Pediatric Anxiety Disorders", "event": "SOBP Annual Meeting", "date": "2026-04", "location": "New York, NY" }
   ],
   "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
+    { "course": "Microcomputer Applications", "institution": "Wenzhou-Kean University", "date": "2022-09", "role": "Teaching Assistant" },
+    { "course": "Microcomputer Applications", "institution": "Wenzhou-Kean University", "date": "2023-01", "role": "Teaching Assistant" }
   ]
 }

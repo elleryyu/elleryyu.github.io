@@ -23,9 +23,9 @@ repository               : "elleryyu/elleryyu.github.io"
 author:
   # Biographic information
   avatar           : "ellery_headshot.jpg"
-  name             : "Weifeng (Ellery) Yu (于伟峰)"
+  name             : "Weifeng (Ellery) Yu"
   pronouns         :
-  bio              : "Master in Computer Science @ UVA. Research: computational neuroimaging, GNNs, brain–behavior modeling."
+  bio              : "M.S. in Computer Science @ UVA. Research: computational neuroimaging, GNNs, brain–behavior modeling."
   location         : "Charlottesville, VA, USA"
   employer         : "University of Virginia"
   uri              : "https://elleryyu.github.io"
