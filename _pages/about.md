@@ -17,4 +17,12 @@ My research focuses on **computational neuroimaging** and **multimodal MRI analy
 - [Talks](/talks/)
 - [GitHub](https://github.com/elleryyu)
 
+---
+
+## 📣 News
+
+- **2026-01** — Paper submitted to *Molecular Autism*: "Altered Hierarchical Ranking of Intrinsic Neural Timescales in School-Aged Youth with Autism Spectrum Disorder" (equal contribution with A. Solomon).
+- **2025-07** — Paper accepted at **MIDL 2025**: "A novel GNN framework integrating neuroimaging and behavioral information to understand adolescent psychiatric disorders."
+- **2025-02** — Paper presented at **SPIE Medical Imaging 2025**: "Altered hierarchical rank in intrinsic neural timescales in autism spectrum disorder."
+
 
