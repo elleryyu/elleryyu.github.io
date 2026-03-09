@@ -33,7 +33,7 @@ author:
 
   # Academic websites (add your links; leave blank to hide)
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=BaPCxccAAAAJ&hl=en"
   impactstory      :
   orcid            :
   semantic         :
@@ -59,7 +59,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "weifeng-yu-610227233"
   mastodon         :
   medium           :
   pinterest        :
