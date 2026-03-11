@@ -1,5 +1,5 @@
 ---
-title: 'Understanding dMRI: Mapping the Brain's White Matter Highways'
+title: "Understanding dMRI: Mapping the Brain's White Matter Highways"
 date: 2026-03-04
 permalink: /posts/2026/03/dmri-foundations/
 tags:

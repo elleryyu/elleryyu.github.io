@@ -1,0 +1,208 @@
+# CLAUDE.md — elleryyu.github.io
+
+Academic personal site built on **Jekyll + Minimal Mistakes** (academicpages fork).
+
+## Project Layout
+
+| Path | Purpose |
+|------|---------|
+| `_config.yml` | Global site settings, author profile, social links |
+| `_data/cv.json` | Structured CV data (JSON Resume spec) |
+| `_pages/` | Static pages (about, cv, publications, talks, teaching, blog index) |
+| `_publications/` | One `.md` file per publication |
+| `_talks/` | One `.md` file per talk/presentation |
+| `_teaching/` | One `.md` file per teaching role |
+| `_posts/` | Blog posts (date-prefixed filenames) |
+| `assets/`, `images/`, `files/` | Static assets |
+| `markdown_generator/` | Jupyter notebooks to generate collection entries from CSV/BibTeX |
+
+## Analytics (Visitor Counts)
+
+Handled globally via `_config.yml` — the theme injects the script on every page automatically through `_includes/analytics.html`.
+
+```yaml
+# _config.yml
+analytics:
+  provider: "google-analytics-4"
+  google:
+    tracking_id: "G-TFZ9FK5J1V"
+```
+
+- Dashboard: [analytics.google.com](https://analytics.google.com)
+- To disable on a specific page, add `analytics: false` to its front matter
+- Alternative: set `provider: "custom"` and put your snippet in `_includes/analytics-providers/custom.html`
+
+---
+
+## Build & Preview
+
+```bash
+bundle exec jekyll serve   # local preview at http://localhost:4000
+```
+
+---
+
+## Page Agents
+
+Each agent below owns a specific page. Follow its conventions exactly when making changes.
+
+---
+
+### Agent: About (`_pages/about.md`)
+
+**File:** `_pages/about.md`
+
+**Conventions:**
+- Front matter: `permalink: /`, `title: "About"`, `author_profile: true`
+- Opening paragraph: bold name, lab name linked, supervisor name, institution
+- Research summary paragraph: bold key terms
+- Quick links section with bullets
+- `## 📣 News` section: reverse-chronological bullets, format `**YYYY-MM** — ...`
+- Keep the page concise — it is the landing page
+
+**When to edit:**
+- New research position or affiliation
+- New news item (paper submitted/accepted, talk given, award)
+- Updated research focus description
+
+---
+
+### Agent: CV (`_pages/cv.md`, `_data/cv.json`)
+
+**Files:**
+- `_pages/cv.md` — rendered view (uses `cv-json` layout or direct markdown)
+- `_data/cv.json` — machine-readable source of truth (JSON Resume format)
+
+**Conventions:**
+- `cv.json` is the canonical source; keep it in sync with `cv.md`
+- Sections in `cv.json`: `basics`, `work`, `education`, `publications`, `talks`, `skills`, `awards`
+- Dates: ISO format `YYYY-MM` (or `"Present"` for endDate)
+- `_pages/cv.md` front matter: `layout: archive`, `permalink: /cv/`
+- PDF version lives at `files/cv.pdf`; update it when the content changes significantly
+
+**When to edit:**
+- New job/internship/research role → add to `work` in `cv.json`
+- New degree → add to `education`
+- New paper/talk accepted → mirror in `publications`/`talks` arrays
+- Skill update
+
+---
+
+### Agent: Publications (`_pages/publications.html`, `_publications/`)
+
+**Files:**
+- `_pages/publications.html` — auto-renders all entries in `_publications/`
+- `_publications/<YYYY-slug>.md` — one file per paper
+
+**Conventions for each `_publications/*.md`:**
+```yaml
+---
+title: "<Full paper title>"
+collection: publications
+category: conferences   # or: journals | preprints
+permalink: /publications/<slug>
+excerpt: "<Venue/journal short description>"
+date: YYYY-MM-DD
+venue: '<Venue short name, Year>'
+authors: 'LastName, F., ...'
+citation: '<Full citation with <i>journal</i> in italics>'
+---
+
+<Full citation in plain markdown (mirrors citation field)>
+```
+- Filename pattern: `YYYY-author1-keyword-venue.md`
+- `category` values: `conferences`, `journals`, `preprints`
+- Body: full citation in markdown; optionally add abstract, DOI link, PDF link
+
+**When to edit:**
+- Paper accepted → create new `_publications/*.md`
+- Preprint updated → edit excerpt and citation
+- DOI/PDF link becomes available → add to body
+
+---
+
+### Agent: Talks (`_pages/talks.html`, `_talks/`)
+
+**Files:**
+- `_pages/talks.html` — auto-renders all entries in `_talks/`
+- `_talks/<YYYY-MM-DD-slug>.md` — one file per talk
+
+**Conventions for each `_talks/*.md`:**
+```yaml
+---
+title: "<Talk title>"
+collection: talks
+type: "<Poster Presentation | Oral Presentation | Invited Talk | Seminar>"
+permalink: /talks/<YYYY-MM-DD-slug>
+venue: "<Full venue name>"
+date: YYYY-MM-DD
+location: "<City, State, Country>"
+---
+
+<One-sentence description: type, venue, location, date.>
+```
+- Filename pattern: `YYYY-MM-DD-short-slug.md`
+- `type` must be one of: `Poster Presentation`, `Oral Presentation`, `Invited Talk`, `Seminar`
+- Body: 1–3 sentences max; optionally link to slides or abstract
+
+**When to edit:**
+- New talk confirmed → create entry (can be future-dated)
+- Slides available → add link to body
+
+---
+
+### Agent: Teaching (`_pages/teaching.html`, `_teaching/`)
+
+**Files:**
+- `_pages/teaching.html` — auto-renders all entries in `_teaching/`
+- `_teaching/<YYYY-term-slug>.md` — one file per role
+
+**Conventions for each `_teaching/*.md`:**
+```yaml
+---
+title: "<Course name>"
+collection: teaching
+type: "<Teaching Assistant | Instructor | Guest Lecturer>"
+permalink: /teaching/<slug>
+venue: "<University name>"
+date: YYYY-MM-DD   # first day of term
+location: "<City, Country>"
+---
+
+<One-sentence description: role, course, institution, term.>
+```
+- Filename pattern: `YYYY-term-course-slug.md` (e.g., `2022-fall-microcomputer-applications.md`)
+- `type` must be one of: `Teaching Assistant`, `Instructor`, `Guest Lecturer`
+
+**When to edit:**
+- New TA or teaching role → create entry
+
+---
+
+### Agent: Blog (`_posts/`, `_pages/year-archive.html`)
+
+**Files:**
+- `_posts/<YYYY-MM-DD-slug>.md` — one file per post
+- Blog index auto-generated from `_posts/`
+
+**Conventions for each `_posts/*.md`:**
+```yaml
+---
+title: "<Post title>"
+date: YYYY-MM-DD
+permalink: /posts/<YYYY>/<MM>/<slug>/
+tags:
+  - <tag1>
+  - <tag2>
+---
+
+<Post content in markdown>
+```
+- Filename pattern: `YYYY-MM-DD-slug.md`
+- Tags: use lowercase, hyphenated (e.g., `neuroimaging`, `deep-learning`, `brain-connectivity`)
+- Writing style: technical but accessible; use headers (`##`, `###`), math (MathJax via `$$`), and code blocks as needed
+- Posts live at `/posts/YYYY/MM/slug/`
+
+**When to edit:**
+- New blog post → create `_posts/YYYY-MM-DD-slug.md`
+- Fix typo or update content in existing post → edit that file directly
