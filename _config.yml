@@ -25,11 +25,11 @@ author:
   avatar           : "ellery_headshot.jpg"
   name             : "Weifeng (Ellery) Yu (于伟峰)"
   pronouns         :
-  bio              : "CS Graduate Researcher @ UVA. Building computational tools to decode brain connectivity and behavior from neuroimaging data."
-  location         : "Charlottesville, VA, USA"
-  employer         : "University of Virginia"
+  bio              : "Incoming PhD Student @ UL Lafayette. Building computational tools to decode brain connectivity and behavior from neuroimaging data."
+  location         : "Lafayette, LA, USA"
+  employer         : "University of Louisiana at Lafayette"
   uri              : "https://elleryyu.github.io"
-  email            : "dag9wj@virginia.edu"
+  email            : "elleryweifengyu@gmail.com"
 
   # ClustrMaps visitor globe (paste the src URL from your ClustrMaps embed script)
   clustrmaps         : "//clustrmaps.com/map_v2.js?d=eE-yiLfNW_tmBzGivduBYPTNks6VSfJhySpiOatjqwE&cl=ffffff&w=a"

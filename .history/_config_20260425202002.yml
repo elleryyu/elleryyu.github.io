@@ -25,15 +25,18 @@ author:
   avatar           : "ellery_headshot.jpg"
   name             : "Weifeng (Ellery) Yu (于伟峰)"
   pronouns         :
-  bio              : "Master in Computer Science @ UVA. Research: computational neuroimaging, GNNs, brain–behavior modeling."
-  location         : "Charlottesville, VA, USA"
-  employer         : "University of Virginia"
+  bio              : "Incoming PhD Student @ UL Lafayette. Building computational tools to decode brain connectivity and behavior from neuroimaging data."
+  location         : "Lafayette, LA, USA"
+  employer         : "University of Louisiana at Lafayette"
   uri              : "https://elleryyu.github.io"
-  email            : "dag9wj@virginia.edu"
+  email            : "elleryweifengyu@gmail.com"
+
+  # ClustrMaps visitor globe (paste the src URL from your ClustrMaps embed script)
+  clustrmaps         : "//clustrmaps.com/map_v2.js?d=eE-yiLfNW_tmBzGivduBYPTNks6VSfJhySpiOatjqwE&cl=ffffff&w=a"
 
   # Academic websites (add your links; leave blank to hide)
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=BaPCxccAAAAJ&hl=en"
   impactstory      :
   orcid            :
   semantic         :
@@ -59,7 +62,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "weifeng-yu-610227233"
   mastodon         :
   medium           :
   pinterest        :
@@ -147,9 +150,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "google-analytics-4"
   google:
-    tracking_id          :
+    tracking_id          : "G-TFZ9FK5J1V"
 
 
 # Reading Files
@@ -241,6 +244,11 @@ defaults:
       share: true
       related: true
   # _pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: single
+      author_profile: true
   - scope:
       path: ""
       type: pages

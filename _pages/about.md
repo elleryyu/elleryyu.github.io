@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm **Weifeng (Ellery) Yu**. I am a Research Assistant in the [NeuroBioInformatics Lab](https://neurobioinformatics.github.io/) at the **University of Virginia School of Data Science**, supervised by **Dr. Aiying Zhang**.
+I'm **Weifeng (Ellery) Yu**. I am a Research Assistant in the [NeuroBioInformatics Lab](https://neurobioinformatics.github.io/) at the **University of Virginia School of Data Science**, supervised by **Dr. Aiying Zhang**. I will be joining the **University of Louisiana at Lafayette** as a PhD student, advised by [Dr. Hao Zheng](https://hzaoheng123.github.io/HZ/).
 
 My research focuses on **computational neuroimaging** and **multimodal MRI analysis** to investigate large-scale brain organization in neurodevelopmental and psychiatric conditions. I develop quantitative and computational methods to study brain connectivity, intrinsic neural dynamics, and complex biological signals. My goal is to derive interpretable, system-level insights from high-dimensional neuroimaging data to better understand brain function in health and disease.
-
-I am seeking opportunities for a **PhD position** and **Research Assistant position** in computational neuroscience, neuroimaging, or related fields. Please feel free to reach out if you have relevant openings.
 
 **Quick links**
 - [CV](/cv/)
@@ -23,9 +21,8 @@ I am seeking opportunities for a **PhD position** and **Research Assistant posit
 
 ## 📣 News
 
+- **2026-04** — Excited to announce I will join the **University of Louisiana at Lafayette** as a PhD student, advised by [Dr. Hao Zheng](https://hzaoheng123.github.io/HZ/)!
 - **2026-03** — Upcoming talk at **VILLIANT Lab** (2026-03-17): "Integrating Multimodal Imaging and Non-Imaging Data via Graph Learning."
-- **2026-03** — Actively seeking **PhD opportunities** in computational neuroscience, neuroimaging, or related fields for Fall 2027. Feel free to reach out!
-- **2026-03** — Open to **Research Assistant positions** and **job openings** in neuroimaging, computational biology, or data science.
 - **2026-01** — Paper submitted to *Molecular Autism*: "Altered Hierarchical Ranking of Intrinsic Neural Timescales in School-Aged Youth with Autism Spectrum Disorder" (equal contribution with A. Solomon).
 - **2025-07** — Paper accepted at **MIDL 2025**: "A novel GNN framework integrating neuroimaging and behavioral information to understand adolescent psychiatric disorders."
 - **2025-02** — Paper presented at **SPIE Medical Imaging 2025**: "Altered hierarchical rank in intrinsic neural timescales in autism spectrum disorder."
